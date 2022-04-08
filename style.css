@@ -10,7 +10,7 @@
   .cal_name{
 display: contents;
 margin: auto;
-color: rgba(70, 145, 26, 0.927);
+color: rgba(220, 230, 30, 0.927);
 font-size: 33px;
   }
   section {
@@ -29,7 +29,7 @@ font-size: 33px;
     overflow: hidden;
   }
   .display {
-    background-color: rgba(244, 245, 241, 0.831);
+    background-color: rgba(228, 226, 231, 0.831);
     height: 100px;
     width: 100%;
     text-align: right;
@@ -52,13 +52,29 @@ font-size: 33px;
     
   }
   .all_button {
-    color: whitesmoke;
+    color: rgb(18, 1, 1);
     display: grid;
    
     grid-template: repeat(4, 1fr) / repeat(4, 1fr);
   }
+  .all-clear{
+    background-color: rgb(211, 133, 16);
+  }
+  .operation{
+    background-color: aqua;
+  }
+  .number{
+    background-color: aqua;
+  }
+  .last-entity-clear{
+    background-color: aqua;
+  }
+  .equal{
+    background-color:aqua ;
+  }
+  
   .button {
-    border: 0.5px solid rgba(92, 92, 92, 0.137);
+    border: 0.5px solid rgba(17, 1, 1, 0.909);
     display: inline-block;
     height: 100px;
     width: 100%;
@@ -70,7 +86,7 @@ font-size: 33px;
     cursor: pointer;
   }
   .button:hover {
-    background-color: rgb(30, 43, 46);
+    background-color: rgb(24, 169, 58);
   }
   .btn-0 {
     grid-column: 1/3;
